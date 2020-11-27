@@ -1,0 +1,24 @@
+{
+  "name": "csv-json",
+  "version": "0.0.1-alpha",
+  "description": "A CSV to/from JSON converter library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-El/csv-json.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "csv-converter"
+  ],
+  "author": "Victor Elezua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victor-El/csv-json/issues"
+  },
+  "homepage": "https://github.com/Victor-El/csv-json#readme"
+}
