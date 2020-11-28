@@ -4,7 +4,8 @@
   "description": "A CSV to/from JSON converter library",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:cover": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Victor-El/csv2jsonjs/issues"
   },
-  "homepage": "https://github.com/Victor-El/csv2jsonjs#readme"
+  "homepage": "https://github.com/Victor-El/csv2jsonjs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
