@@ -18,8 +18,8 @@ function convertJsonToCsv(jsonString) {
         outputCSVString += "\n";
 
         for (obj of jsJson) {
-            for (jsonStringue of Object.jsonStringues(obj)) {
-                outputCSVString += jsonStringue + ", ";
+            for (val of Object.values(obj)) {
+                outputCSVString += val + ", ";
             }
             outputCSVString = removeTrailingSpaceandComma(outputCSVString)
             outputCSVString += "\n"
