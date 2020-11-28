@@ -28,3 +28,8 @@ jobs:
     - run: npm run build --if-present
     - run: npm run test:cover --if-present
     - run: npm test
+    - name: Upload a Test coverage report
+      uses: actions/upload-artifact@v2.2.1
+      with:
+        name: coverage-report
+        path: /coverage
