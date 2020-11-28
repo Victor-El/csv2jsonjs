@@ -1,6 +1,6 @@
 {
   "name": "csv2jsonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CSV to/from JSON converter library",
   "main": "index.js",
   "scripts": {
