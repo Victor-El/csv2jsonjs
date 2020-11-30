@@ -1,3 +1,5 @@
+![CI](https://github.com/Victor-El/csv2jsonjs/workflows/Node.js%20CI/badge.svg)
+
 # Csv2JsonJS
 A CSV to/from JSON converter library
 
